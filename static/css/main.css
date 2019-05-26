@@ -325,6 +325,13 @@ div#masthead img {
     max-width: 50%;
   }
 }
+@media (max-width: 55em) {
+  div#masthead h1 {
+    max-width: 39.5em;
+    margin: auto;
+	padding: 1.5em;
+  }
+}
 @media (min-width: 55em) {
   div#masthead {
     position: fixed;
