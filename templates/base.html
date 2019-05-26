@@ -134,6 +134,22 @@
                         {% if UNTAPPD %}
                         <a href="{{ UNTAPPD }}" target="_blank"><div class="icon-untappd icon"></div></a>
                         {% endif %}
+						{% if GOOGLESCHOLAR %}
+                        <a href="{{ GOOGLESCHOLAR }}" target="_blank"><div class="icon-googlescholar icon"></div></a>
+                        {% endif %}
+						{% if RESEARCHGATE %}
+                        <a href="{{ RESEARCHGATE }}" target="_blank"><div class="icon-researchgate icon"></div></a>
+                        {% endif %}
+						{% if ORCID %}
+                        <a href="{{ ORCID }}" target="_blank"><div class="icon-orcid icon"></div></a>
+                        {% endif %}
+						{% if LINKEDIN %}
+                        <a href="{{ LINKEDIN }}" target="_blank"><div class="icon-linkedin icon"></div></a>
+                        {% endif %}
+						{% if TUNI %}
+                        <a href="{{ TUNI }}" target="_blank"><div class="icon-tuni icon"></div></a>
+                        {% endif %}
+						
                     </div>
                     <p>© <script>document.write(moment().format('YYYY'));</script> {{ AUTHOR }}</p>
                     {% if ATTRIBUTION %} 

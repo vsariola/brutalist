@@ -674,6 +674,31 @@ img.emoji {
   padding-right: 0.5em;
 }
 
+.icon-googlescholar {
+	background-image: url('png/googlescholar.png');
+	background-repeat: no-repeat;
+}
+
+.icon-researchgate {
+	background-image: url('png/researchgate.png');
+	background-repeat: no-repeat;
+}
+
+.icon-linkedin {
+	background-image: url('png/linkedin.png');
+	background-repeat: no-repeat;
+}
+
+.icon-orcid {
+	background-image: url('png/orcid.png');
+	background-repeat: no-repeat;
+}
+
+.icon-tuni {
+	background-image: url('png/tuni.png');
+	background-repeat: no-repeat;
+}
+
 /* END EMOJIS */
 
 /*# sourceMappingURL=main.css.map */
